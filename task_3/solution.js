@@ -30,6 +30,7 @@ function renderCartItem(item) {
    let sum = product.count * product.price;
        itemCountText = itemCountText + sum;
        itemCountText = itemCountText + ` ₽`;   
+    // альтернатива let itemCountText = `${product.count} × ${product.price} ₽ = ${product.count * product.price} ₽`;
 
     // Конец решения задания №3.1.
 

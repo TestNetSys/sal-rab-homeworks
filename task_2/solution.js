@@ -29,7 +29,7 @@ function calcDiscount(sum, min, discount) {
     let productsSum = sum; // сумма в корзине
     let discountMinSum = min; // минимальная сумма для скидки
     let discountPart = discount; // величина скидки в процентах
-
+// короткая альтернатива let discountSum = productsSum >= discountMinSum ? productsSum / 100 * discountPart : 0;
     // Задание №2.2. Рассчитать скидку
     // создайте переменную discountSum
     // если productsSum больше или равно discountMinSum,
